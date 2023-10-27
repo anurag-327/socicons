@@ -23,13 +23,13 @@ Using socicons in your project is straightforward. Follow these steps:
 2. **Importing**:
    - Import the library into your project where you want to use it.
      ```javascript
-     import {socicons} from 'socicons';
+     import {Socicons} from 'socicons';
      ```
 
 3. **Adding Icons**:
    - To add an icon to your project, use the `<socicons>` component with the `icon` attribute and specify the icon name.
      ```jsx
-     <socicons icon="facebook" />
+     <Socicons icon="facebook" />
      ```
 
 ## Example
@@ -37,16 +37,16 @@ Using socicons in your project is straightforward. Follow these steps:
 Here's an example of how you can use socicons in your HTML or JSX code:
 
 ```jsx
-import socicons from 'socicons';
+import {Socicons} from 'socicons';
 
 function MyComponent() {
   return (
     <div>
       <h1>Follow Us on Social Media</h1>
-      <socicons icon="facebook" />
-      <socicons icon="twitter" />
-      <socicons icon="instagram" />
-      <socicons icon="linkedin" />
+      <Socicons icon="facebook" />
+      <Socicons icon="twitter" />
+      <Socicons icon="instagram" />
+      <Socicons icon="linkedin" />
     </div>
   );
 }
@@ -69,9 +69,9 @@ function MyComponent() {
   return (
     <div>
       <h1>Customized Icons</h1>
-      <socicons icon="facebook" size={40} color="#" />
-      <socicons icon="twitter" style={{ fontSize: '1.5rem', color: 'green' }} />
-      <socicons icon="instagram" style={{ fontSize: '1.5rem', color: 'purple' }} />
+      <Socicons icon="facebook" size={40} color="#02055A" />
+      <Socicons icon="twitter" size={40} color="#02055A" />
+      <Socicons icon="instagram" size={40} color="#808080" />
     </div>
   );
 }
@@ -79,7 +79,7 @@ function MyComponent() {
 
 ## Supported Icons
 
-socicons supports a wide range of icons, including icons for famous brands and popular tech stacks. You can use these icons to enhance the visual appeal of your website or application. Here's a list of some of the supported icons along with their corresponding icon names:
+Socicons supports a wide range of icons, including icons for famous brands and popular tech stacks. You can use these icons to enhance the visual appeal of your website or application. Here's a list of some of the supported icons along with their corresponding icon names:
 
 - Airbnb (`airbnb`)
 - Algolia (`algolia`)
