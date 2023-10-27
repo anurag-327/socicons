@@ -1,2 +1,4 @@
 node_modules
 esbuild.js
+.storybook
+src/stories

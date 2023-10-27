@@ -1,21 +1,39 @@
 {
-  "name": "socions",
+  "name": "stackicons",
   "version": "1.0.0",
   "description": "Icon library for generating icons of social app and tech stacks ",
   "main": "src/index.js",
-  "repository": "https://github.com/anurag-327/socions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anurag-327/socions.git"
+  },
   "author": "Anurag Srivastav",
   "license": "MIT",
-  "scripts": {
-    "build":"node esbuild.js"
+  "scripts":{
+     "build": "esbuild src/index.js --bundle --format=esm --outdir=dist",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "7.5.1",
+    "@storybook/addon-interactions": "7.5.1",
+    "@storybook/addon-links": "7.5.1",
+    "@storybook/addon-onboarding": "1.0.8",
+    "@storybook/blocks": "7.5.1",
+    "@storybook/react": "7.5.1",
+    "@storybook/react-vite": "7.5.1",
+    "@storybook/testing-library": "0.2.2",
     "esbuild": "^0.19.5",
+    "prop-types": "15.8.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-vite": "^0.0.5",
+    "storybook": "7.5.1",
+    "vite": "^4.5.0"
+
   }
 }
