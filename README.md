@@ -63,7 +63,7 @@ socicons allows you to customize the appearance of icons to better fit your proj
 Here's an example of how to customize the size and color of an icon:
 
 ```jsx
-import socicons from 'socicons';
+import {Socicons} from 'socicons';
 
 function MyComponent() {
   return (
