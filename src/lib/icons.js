@@ -1,4 +1,4 @@
-let arr=["github","gitlab","bitbucket","linkedin","meta",
+export const icons=["github","gitlab","bitbucket","linkedin","meta",
 "twitter","x","telegram","apple","facebook","facebookmessenger",
 "instagram","threads","whatsapp","google","googleplay","gpay",
 "googleplus","googlewallet","googledrive","googlewallet",
@@ -18,5 +18,5 @@ let arr=["github","gitlab","bitbucket","linkedin","meta",
 "gitkraken","digitalocean","gratipay","mailchimp","jira","imdb",
 "hashnode","hackerrank","firefox","chrome","evernote","ember",
 "edge","ethereum","bitcoin","deviantart","devto","amazonpay",
-"amazonpay","appstore","chromecast","fontawesome","squarespace",
+"appstore","chromecast","fontawesome","squarespace",
 "android","intercom","openid","xbox","unsplash","unity","redhat"]
