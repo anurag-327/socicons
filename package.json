@@ -1,0 +1,21 @@
+{
+  "name": "socions",
+  "version": "1.0.0",
+  "description": "Icon library for generating icons of social app and tech stacks ",
+  "main": "src/index.js",
+  "repository": "https://github.com/anurag-327/socions",
+  "author": "Anurag Srivastav",
+  "license": "MIT",
+  "scripts": {
+    "build":"node esbuild.js"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
