@@ -1,1 +1,1 @@
-export {Socions} from "./lib/Socions.jsx"
+export {Socicons} from "./lib/Socicons.jsx"

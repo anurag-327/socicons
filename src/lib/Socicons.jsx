@@ -1,6 +1,6 @@
 import React from 'react'
 import { Path } from './path'
-export function Socions(props)
+export function Socicons(props)
 {
     let icon=props.icon
     if(icon==undefined){

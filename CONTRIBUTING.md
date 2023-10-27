@@ -1,6 +1,6 @@
-# Contributing to Socions Icon Generation Library
+# Contributing to socicons Icon Generation Library
 
-Thank you for considering contributing to Socions! We welcome contributions from the community to make our icon library even better. Please take a moment to review this guide for contributing.
+Thank you for considering contributing to socicons! We welcome contributions from the community to make our icon library even better. Please take a moment to review this guide for contributing.
 
 ## Code of Conduct
 
@@ -8,7 +8,7 @@ Please note that this project follows an [open-source Code of Conduct](CODE_OF_C
 
 ## Ways to Contribute
 
-There are several ways to contribute to Socions:
+There are several ways to contribute to socicons:
 
 1. Adding support for new icons.
 2. Enhancing existing icons and their styles.
@@ -67,7 +67,7 @@ By contributing to this project, you agree that your contributions will be licen
 
 ## Thank You
 
-We greatly appreciate your contributions to Socions. Your efforts help improve the library for everyone in the community. Thank you for being a part of this project!
+We greatly appreciate your contributions to socicons. Your efforts help improve the library for everyone in the community. Thank you for being a part of this project!
 
 If you have any questions or need assistance with the contribution process, feel free to reach out to us by opening an issue or contacting us at [anuragsrivastav0027@gmail.com](mailto:anuragsrivastav0027@gmail.com).
 

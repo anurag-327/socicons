@@ -1,52 +1,52 @@
-# Socions - Icon Generation Library
+# Socicons - Icon Generation Library
 
-Socions is a versatile icon generation library that allows you to easily integrate icons of famous brands and tech stacks into your projects. With a simple and intuitive syntax, you can incorporate these icons seamlessly. 
+Socicons is a versatile icon generation library that allows you to easily integrate icons of famous brands and tech stacks into your projects. With a simple and intuitive syntax, you can incorporate these icons seamlessly. 
 
 
 
-Please note that Socions is continuously adding support for more icons, so make sure to check for updates regularly.
+Please note that socicons is continuously adding support for more icons, so make sure to check for updates regularly.
 
 ## How to Use
 
-Using Socions in your project is straightforward. Follow these steps:
+Using socicons in your project is straightforward. Follow these steps:
 
 1. **Installation**:
-   - You can install Socions via your preferred package manager. For example, with npm:
+   - You can install socicons via your preferred package manager. For example, with npm:
      ```
-     npm install socions
+     npm install socicons
      ```
    - Or with yarn:
      ```
-     yarn add socions
+     yarn add socicons
      ```
 
 2. **Importing**:
    - Import the library into your project where you want to use it.
      ```javascript
-     import {Socions} from 'socions';
+     import {socicons} from 'socicons';
      ```
 
 3. **Adding Icons**:
-   - To add an icon to your project, use the `<Socions>` component with the `icon` attribute and specify the icon name.
+   - To add an icon to your project, use the `<socicons>` component with the `icon` attribute and specify the icon name.
      ```jsx
-     <Socions icon="facebook" />
+     <socicons icon="facebook" />
      ```
 
 ## Example
 
-Here's an example of how you can use Socions in your HTML or JSX code:
+Here's an example of how you can use socicons in your HTML or JSX code:
 
 ```jsx
-import Socions from 'socions';
+import socicons from 'socicons';
 
 function MyComponent() {
   return (
     <div>
       <h1>Follow Us on Social Media</h1>
-      <Socions icon="facebook" />
-      <Socions icon="twitter" />
-      <Socions icon="instagram" />
-      <Socions icon="linkedin" />
+      <socicons icon="facebook" />
+      <socicons icon="twitter" />
+      <socicons icon="instagram" />
+      <socicons icon="linkedin" />
     </div>
   );
 }
@@ -54,7 +54,7 @@ function MyComponent() {
 
 ## Customization
 
-Socions allows you to customize the appearance of icons to better fit your project's design. While the library provides default styles, you can customize the size and color of the icons to match your specific requirements.
+socicons allows you to customize the appearance of icons to better fit your project's design. While the library provides default styles, you can customize the size and color of the icons to match your specific requirements.
 
 - **Size (Optional)**: You can adjust the size of the icons by providing size as props
 
@@ -63,15 +63,15 @@ Socions allows you to customize the appearance of icons to better fit your proje
 Here's an example of how to customize the size and color of an icon:
 
 ```jsx
-import Socions from 'socions';
+import socicons from 'socicons';
 
 function MyComponent() {
   return (
     <div>
       <h1>Customized Icons</h1>
-      <Socions icon="facebook" size={40} color="#" />
-      <Socions icon="twitter" style={{ fontSize: '1.5rem', color: 'green' }} />
-      <Socions icon="instagram" style={{ fontSize: '1.5rem', color: 'purple' }} />
+      <socicons icon="facebook" size={40} color="#" />
+      <socicons icon="twitter" style={{ fontSize: '1.5rem', color: 'green' }} />
+      <socicons icon="instagram" style={{ fontSize: '1.5rem', color: 'purple' }} />
     </div>
   );
 }
@@ -79,7 +79,7 @@ function MyComponent() {
 
 ## Supported Icons
 
-Socions supports a wide range of icons, including icons for famous brands and popular tech stacks. You can use these icons to enhance the visual appeal of your website or application. Here's a list of some of the supported icons along with their corresponding icon names:
+socicons supports a wide range of icons, including icons for famous brands and popular tech stacks. You can use these icons to enhance the visual appeal of your website or application. Here's a list of some of the supported icons along with their corresponding icon names:
 
 - Airbnb (`airbnb`)
 - Algolia (`algolia`)
@@ -203,4 +203,4 @@ Socions supports a wide range of icons, including icons for famous brands and po
 - Yarn (`yarn`)
 - Yelp (`yelp`)
 
-Please note that this is not an exhaustive list, and Socions continues to add support for more icons. Make sure to check for updates regularly.
+Please note that this is not an exhaustive list, and socicons continues to add support for more icons. Make sure to check for updates regularly.

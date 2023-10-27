@@ -1,12 +1,12 @@
 
-import { Socions } from "../index";
+import { Socicons } from "../index";
 
 // export default {
 //   title:"Socions"
 // };
 
 export default {
-    component: Socions,
+    component: Socicons,
     tags: ["autodocs"],
   };
 
@@ -16,9 +16,9 @@ export const SociconsExample=
      render :()=>(
         <div style={{display:"flex",flexDirection:"row",flexWrap:"wrap",gap:"10px",justifyContent:"center",alignItems:"center"}}>
                {
-                      arr.map((data) => <Socions icon={data} size={100} />)
+                      arr.map((data) => <Socicons icon={data} size={100} />)
                }
-               <Socions icon="jjj" size={100} />
+               <Socicons icon="jjj" size={100} />
                
         </div>
      )
