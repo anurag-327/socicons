@@ -213,7 +213,7 @@ License
 Socions is released under the MIT License. See the LICENSE file for more details.
 
 ## Support
-If you have any questions, issues, or feature requests, please create an issue on our GitHub repository or reach out to us at support@socionslibrary.com.
+If you have any questions, issues, or feature requests, please create an issue on our GitHub repository or reach out to us at anuragsrivastav0027@gmail.com.
 
 Thank you for choosing Socions for your icon needs!
 
