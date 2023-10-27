@@ -204,3 +204,17 @@ Socicons supports a wide range of icons, including icons for famous brands and p
 - Yelp (`yelp`)
 
 Please note that this is not an exhaustive list, and socicons continues to add support for more icons. Make sure to check for updates regularly.
+
+
+## Contributions
+Socions is an open-source project, and contributions are welcome. If you'd like to add support for additional icons or improve the library, please submit a pull request on our GitHub repository.
+
+License
+Socions is released under the MIT License. See the LICENSE file for more details.
+
+## Support
+If you have any questions, issues, or feature requests, please create an issue on our GitHub repository or reach out to us at support@socionslibrary.com.
+
+Thank you for choosing Socions for your icon needs!
+
+Happy coding!
