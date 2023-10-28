@@ -1,4 +1,4 @@
-
+import React from "react";
 import { Path } from './path'
 export function Socicons(props)
 {
