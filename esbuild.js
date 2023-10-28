@@ -9,8 +9,3 @@ esbuild.build({
     outfile:"./dist/index.mjs"
 })
 
-esbuild.build({
-    ...defaultConfig,
-    format:"cjs",
-    outfile:"./dist/index.js"
-})
