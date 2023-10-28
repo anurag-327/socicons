@@ -1,3 +1,6 @@
+![Screenshot 2023-10-28 013609](https://github.com/anurag-327/socicons/assets/98267696/e9e5be01-0763-4796-a1e3-91f529a528ad)
+
+
 # Socicons - Icon Generation Library
 
 Socicons is a versatile icon generation library that allows you to easily integrate icons of famous brands and tech stacks into your projects. With a simple and intuitive syntax, you can incorporate these icons seamlessly. 
